@@ -1,0 +1,55 @@
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import '../Styles/Home.css'
+import me from '../Images/me.jpg'
+import { Card, Divider } from '@mui/material';
+
+const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+}));
+
+function About() {
+    return (
+        <>
+            <div style={{ display: 'flex', justifyContent: 'center', placeItems: 'center' }}>
+                <Box width={1500} padding={2}>
+                    <Grid container spacing={2} >
+                        <Grid item xs={12} md={6}>
+                            {/* <Card style={{ display: 'flex', justifyContent: 'center', borderRadius: '20px' }}> */}
+                            <img
+                                src={me}
+                                width='100%'
+                                height='auto'
+                                style={{ borderRadius: '20px' }}
+                            />
+                            {/* </Card> */}
+                        </Grid>
+                        <Grid item xs={12} md={6} >
+                            <Card style={{ background: '#0F2027', borderRadius: '20px', padding: '10px', maxHeight: '100%' }}>
+                                <span style={{ fontSize: '50px', fontFamily: 'Stencil Std, fantasy' }}>Want to know me!</span>
+                                <hr style={{ color: 'white' }} />
+                                <p style={{ fontFamily: 'Belanosima', fontSize: '20px' }}>
+                                    Hi, I am Vimukthi Maduwantha and I am a Software Engineer based in Sri Lanka.
+                                    I am a undergraduate in Sri Lanka Institute In Information Technology who dedicated and passionate undergraduate focused on achieving a
+                                    successful career in the dynamic and challenging information technology
+                                    industry. I am commited to providing exceptional service and delievering high-quality work. I am hignhly motivated
+                                    to achieve perfection in all tasks assigned to me and consistentenly strive to exceed expectations. I am a responsible and
+                                    reliable indicidual who consistentenly demostrates a strong work ethic and gives 100% effort in both my professional and perasonal endeavors.
+                                </p>
+                            </Card>
+                        </Grid>
+                    </Grid>
+                </Box>
+            </div >
+        </>
+    )
+}
+
+export default About
