@@ -1,0 +1,68 @@
+[
+    {
+        "image": "assets/project-thumbnails/iwt.png",
+        "title": "Recruitment Company System",
+        "description": "This system is used to find job opportunities for the people and also this is used to enter new job oppertunities to the system.",
+        "techs": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "PHP"
+        ],
+        "links": "https://github.com/VimukthiMaduwantha/ConnectME.git"
+    },
+    {
+        "image": "assets/project-thumbnails/itp.jpg",
+        "title": "Learning Management System",
+        "description": "This website is developed for a client who is Sahethra Edcucation Institute.Through this website we can do all the processes of the Institute",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ],
+        "links": "https://github.com/SLIITITP/y2_s2_wd_it_02-wd_b02_itp_12.git"
+    },
+    {
+        "image": "assets/project-thumbnails/mad1.png",
+        "title": "Filmhall management system(Android)",
+        "description": "This is the Mobile application I had developed. In this application users can book filmhalls and reserve seats of the film hall.",
+        "techs": [
+            "Anroid Studio"
+        ],
+        "links": "https://github.com/SLIITITP/y2_s2_wd_it_02-wd_b02_itp_12.git"
+    },
+    {
+        "image": "assets/project-thumbnails/travel.png",
+        "title": "Visit SriLanka tourism website",
+        "description": "This website motivate the tourists to visit the country. Because I include the beautiful places for the website.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ],
+        "links": "#"
+    },
+    {
+        "image": "assets/project-thumbnails/agri.png",
+        "title": "Agriculture Management System.",
+        "description": "This system is mainly do the harvest seles, fertilizer sales and raise concerns/ loans. Farmer and buyers can easy to manage the tasks easily.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ],
+        "links": "https://github.com/IT21045912/AF_Assignment"
+    },
+    {
+        "image": "assets/project-thumbnails/restu.PNG",
+        "title": "Restaurant Management System.",
+        "description": "This system is manages all the restaurant funtions. Customers can order the foods online and pay their payments online. In this system, customer chan view so many varieties of foods with differnt flavours.",
+        "techs": [
+            "React JS"
+        ],
+        "links": "https://github.com/VimukthiMaduwantha/test_repo.git"
+    }
+]

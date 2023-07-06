@@ -14,6 +14,8 @@ import { Container } from 'react-bootstrap'
 
 
 function Tech() {
+
+    //autoplay
     return (
         <>
             <Box padding={2} >
@@ -25,7 +27,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={react}
-                                    height='80%'
+                                    height='auto'
                                     width='70%'
                                     style={{ margin: '15px' }}
                                 />
@@ -35,7 +37,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={node}
-                                    height='80%'
+                                    height='auto'
                                     width='80%'
                                     style={{ margin: '15px' }}
                                 />
@@ -45,7 +47,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={java}
-                                    height='90%'
+                                    height='auto'
                                     width='80%'
                                     style={{ margin: '15px' }}
                                 />
@@ -55,7 +57,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={js}
-                                    height='80%'
+                                    height='auto'
                                     width='70%'
                                     style={{ margin: '15px' }}
                                 />
@@ -65,7 +67,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={py}
-                                    height='80%'
+                                    height='auto'
                                     width='60%'
                                     style={{ margin: '15px' }}
                                 />
@@ -75,8 +77,8 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={sql}
-                                    height='70%'
-                                    width='80%'
+                                    height='auto'
+                                    width='100%'
                                     style={{ margin: '20px' }}
                                 />
                             </Card>
@@ -85,7 +87,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={mongo}
-                                    height='80%'
+                                    height='auto'
                                     width='80%'
                                     style={{ margin: '15px' }}
                                 />
@@ -95,7 +97,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={git}
-                                    height='80%'
+                                    height='auto'
                                     width='75%'
                                     style={{ margin: '15px' }}
                                 />
@@ -105,7 +107,7 @@ function Tech() {
                             <Card style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRadius: '30px', backgroundColor: '#0F2027' }}>
                                 <img
                                     src={net}
-                                    height='80%'
+                                    height='auto'
                                     width='75%'
                                     style={{ margin: '15px' }}
                                 />
