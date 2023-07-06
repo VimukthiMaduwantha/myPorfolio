@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import Tech from './Pages/Tech';
+import ParticlesBg from 'particles-bg';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         <Route exact path="/contactMe" element={<Contact />} />
         <Route exact path="/technologies" element={<Tech />} />
       </Routes>
+      <ParticlesBg type="cobweb" bg={true} />
+
     </>
   );
 }

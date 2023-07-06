@@ -4,7 +4,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import '../Styles/Home.css'
-import me from '../Images/me.jpg'
+// import me from '../Images/me.jpg'
+import me from '../Images/me-min.jpg'
 import { Card, Divider } from '@mui/material';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -37,11 +38,11 @@ function About() {
                                 <hr style={{ color: 'white' }} />
                                 <p style={{ fontFamily: 'Belanosima', fontSize: '20px' }}>
                                     Hi, I am Vimukthi Maduwantha and I am a Software Engineer based in Sri Lanka.
-                                    I am a undergraduate in Sri Lanka Institute In Information Technology who dedicated and passionate undergraduate focused on achieving a
+                                    I am an undergraduate in Sri Lanka Institute in Information Technology who dedicated and passionate undergraduate focused on achieving a
                                     successful career in the dynamic and challenging information technology
-                                    industry. I am commited to providing exceptional service and delievering high-quality work. I am hignhly motivated
-                                    to achieve perfection in all tasks assigned to me and consistentenly strive to exceed expectations. I am a responsible and
-                                    reliable indicidual who consistentenly demostrates a strong work ethic and gives 100% effort in both my professional and perasonal endeavors.
+                                    industry. I am committed to providing exceptional service and delivering high-quality work. I am highly motivated
+                                    to achieve perfection in all tasks assigned to me and consistently strive to exceed expectations. I am a responsible and
+                                    reliable individual who consistently demonstrates a strong work ethic and gives 100% effort in both my professional and personal endeavors.
                                 </p>
                             </Card>
                         </Grid>
