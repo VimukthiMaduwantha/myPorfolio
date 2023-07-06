@@ -38,7 +38,7 @@ function About() {
                                 <hr style={{ color: 'white' }} />
                                 <p style={{ fontFamily: 'Belanosima', fontSize: '20px' }}>
                                     Hi, I am Vimukthi Maduwantha and I am a Software Engineer based in Sri Lanka.
-                                    I am an undergraduate in Sri Lanka Institute in Information Technology who dedicated and passionate undergraduate focused on achieving a
+                                    I am an undergraduate in Sri Lanka Institute of Information Technology who dedicated and passionate undergraduate focused on achieving a
                                     successful career in the dynamic and challenging information technology
                                     industry. I am committed to providing exceptional service and delivering high-quality work. I am highly motivated
                                     to achieve perfection in all tasks assigned to me and consistently strive to exceed expectations. I am a responsible and
