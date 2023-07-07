@@ -16,7 +16,7 @@ function NavLinks() {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Vimukthi_Maduwantha.pdf';
+                alink.download = 'Vimukthi Maduwantha.pdf';
                 alink.click();
             });
         });
