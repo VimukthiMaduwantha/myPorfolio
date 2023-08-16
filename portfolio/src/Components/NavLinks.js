@@ -9,7 +9,7 @@ import logo from '../Images/newLogo.png'
 function NavLinks() {
 
     const downloadCV = () => {
-        fetch('assets/resume/S.M.V.M Serasinghe.pdf').then((response) => {
+        fetch('assets/resume/Vimukthi_Maduwantha.pdf').then((response) => {
             response.blob().then((blob) => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
