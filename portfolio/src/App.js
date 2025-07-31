@@ -7,12 +7,13 @@ import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import Tech from './Pages/Tech';
 import ParticlesBg from 'particles-bg';
+import UnderConstruction from './Components/UnderConstruction';
 
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/aboutMe" element={<About />} />
@@ -20,8 +21,8 @@ function App() {
         <Route exact path="/contactMe" element={<Contact />} />
         <Route exact path="/technologies" element={<Tech />} />
       </Routes>
-      <ParticlesBg type="cobweb" bg={true} />
-
+      <ParticlesBg type="cobweb" bg={true} /> */}
+      <UnderConstruction />
     </>
   );
 }
